@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    
+}
+.cls{
+    clear: both;
+}
+nav{
+ background-color: aqua;    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+    margin-top: 10px;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    float:right;
+}
+.menu ul li{
+    float: left;
+    padding: 15px 20px;
+}
+.menu ul li a{
+    color: #fff;
+    font-size: 19px;
+}
+/*banner part css start*/
+#banner{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    /*height: 300px;*/
+}
+.ban_overlay{
+    background-color: rgba(0, 0, 0, 0.53);
+    padding: 200px 0;
+}
+.ban_con{
+    color: #fff;
+}
+.ban_con h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.ban_con p{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:aquamarine;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.ban_con p{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:aquamarine;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.ban_con p{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:aquamarine;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.ban_con a{padding: 12px 30px;
+    background-color: darkgray;
+    border-radius: 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+  
+/*banner part css end*/
+
+/*about part css start*/
+.about_heading h2{
+    text-align: center;
+    font-size: 40px;
+    background-color: teal;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 5px 0;
+    border-radius: 10px;
+    color:bisque;
+}
+.about_img{
+    width: 48%;
+    float: left;
+    padding-right: 20px;
+}
+.about_img img{
+    width: 100%;
+}
+.about_content{
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding-top: 40px;
+}
+.about_content p{
+    line-height: 28px;
+}
+.gly_img{
+    width: 32%;
+    float: left;
+    position: relative;
+}
+.gly_img img{
+    width: 100%;
+}
+.gly_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(21, 12, 12, 0.66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+}
+.gly_overlay a{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transform: scale(0);
+}
+.gly_img:hover .gly_overlay a{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+.gly_mid{
+    margin-left: 19px;
+    margin-right: 19px;
+}
+.rocksana h2{
+    color: aqua;
+    background-color: antiquewhite;
+}
+
+/*about part css end*/
+
+/*footer part css start*/
+footer{
+    background-color: black;
+    color: aqua;
+}
+.foot_con p{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0;
+}
+/*footer part css end*/
